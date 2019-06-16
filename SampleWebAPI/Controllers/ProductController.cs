@@ -41,6 +41,7 @@ namespace SampleWebAPI.Controllers
         };
 
         // GET: api/Product
+        // Just another note
         public IEnumerable<Product> Get()
         {
             return Products;
